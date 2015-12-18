@@ -1,0 +1,36 @@
+{
+  "name": "runway",
+  "version": "1.0.0",
+  "description": "The Runway",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/siz-io/runway.git"
+  },
+  "author": "guillaumervls",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/siz-io/runway/issues"
+  },
+  "homepage": "https://github.com/siz-io/runway#readme",
+  "devDependencies": {
+    "standard": "^5.4.1"
+  },
+  "dependencies": {
+    "compression": "^1.6.0",
+    "connect-flash": "^0.1.1",
+    "cookie-session": "^1.2.0",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "nodemailer": "^1.10.0",
+    "oauth-1.0a": "^1.0.1",
+    "passport": "^0.3.2",
+    "passport-tumblr": "^0.1.2",
+    "request-promise": "^1.0.2",
+    "serve-favicon": "^2.3.0"
+  }
+}
